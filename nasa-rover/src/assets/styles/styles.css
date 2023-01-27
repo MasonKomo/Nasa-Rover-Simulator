@@ -1,0 +1,33 @@
+
+table {
+  margin: auto;
+  width: 100%;
+}
+
+
+.parent-container{
+    position:relative;
+}
+.bottom-label {
+  display: inline-block;
+  float: left;
+  margin-right: 5px;
+}
+
+input#gridSize {
+  display: inline-block;
+  float: left;
+}
+
+.bottom-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20px; /* adjust as needed */
+  left: 0;
+  right: 0;
+}
+
+
+  
